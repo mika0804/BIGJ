@@ -14,12 +14,12 @@
             <p><strong>Email:</strong> <span>bigj@globalsurge.org</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href="https://web.facebook.com/GSBigJOfficial" target="_blank"><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.youtube.com/@GlobalSurgeOfficial" target="_blank"><i class="bi bi-youtube"></i></a>
           </div>
         </div>
+
 
         <div class="col footer-links">
           <h4>Useful Links</h4>
