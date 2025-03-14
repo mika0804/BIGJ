@@ -91,7 +91,7 @@
   <!-- About Us -->
   <hr class="hrstyle">
    <!-- Vis Mis -->
-  <section class="section">
+  <section class="about">
     <div class="container section-title vismis" data-aos="fade-up" data-aos-once=“true”>
       <div id="vismis" class="container col-lg-12">
         <h2>VISION AND MISSION STATEMENT</h2>
@@ -468,7 +468,7 @@ Both branches emphasize creativity, community building, and faith-driven artistr
           <div class="row gy-4">
   <div class="col-lg-6" data-aos="fade-up" data-aos-once="true">
     <div class="team-member d-flex align-items-start">
-      <div class="pic"><img src="assets/img/Team/Jomalyn Castil.png" class="img-fluid" alt=""></div>
+      <div class="pic"><img src="assets/img/Team/P1.png" class="img-fluid" alt=""></div>
       <div class="member-info">
         <h4>Jomalyn Castil</h4>
         <span><b>Executive Director</b>, Community Operations & Strategies</span>
@@ -621,18 +621,7 @@ Both branches emphasize creativity, community building, and faith-driven artistr
 </div>
               </div><!-- End Team Member -->
 
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+           
     
   </section>
   <!-- End of Team-->

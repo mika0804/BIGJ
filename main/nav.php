@@ -44,8 +44,8 @@
               ABOUT US
             </a>
             <ul id="home" class="dropdown-menu dropdown-hover">
-              <li><a class="dropdown-item" href="index.php#about">WHO WE ARE</a></li>
               <li><a class="dropdown-item" href="index.php#vismis">VISION & MISSION</a></li>
+              <li><a class="dropdown-item" href="index.php#about">WHO WE ARE</a></li>
               <li><a class="dropdown-item" href="index.php#corevalues">CORE VALUES</a></li>
               <li><a class="dropdown-item" href="index.php#timeline">TIMELINE</a></li>
               <li><a class="dropdown-item" href="index.php#team">TEAM</a></li>

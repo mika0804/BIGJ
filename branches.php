@@ -27,9 +27,9 @@
           <div class="row">
             <div class="col-lg mx-1 branchinfo">
               <div class="branchcontent">
-                <h4>Big J Sangandaan</h4>
+                <h4>Big J Caloocan</h4>
                 <p>Caloocan (South)</p>
-                <a href="caloocans.php#sangandaan" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <a href="caloocans.php#caloocan" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
               </div> 
             </div>
             <div class="col-lg mx-1 branchinfo"> 
@@ -41,9 +41,9 @@
             </div>
             <div class="col-lg mx-1 branchinfo"> 
               <div class="branchcontent">
-                <h4>Big J Sta. Cruz</h4>
+                <h4>Big J Cogeo</h4>
                 <p>Cogeo</p>
-                <a href="cogeo.php#stacruz" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <a href="cogeo.php#cogeo" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
               </div>           
             </div> 
           </div>
@@ -89,9 +89,9 @@
             </div>
             <div class="col-lg mx-1 branchinfo"> 
               <div class="branchcontent">
-                <h4>Big J Caniogan</h4>
+                <h4>Big J Pasig</h4>
                 <p>Pasig</p>
-                <a href="pasig.php#caniogan" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <a href="pasig.php#pasig" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
               </div>           
             </div> 
           </div>    
@@ -123,9 +123,9 @@
           <div class="row">
             <div class="col-lg mx-1 branchinfo">
               <div class="branchcontent">
-                <h4>Big J SunnyVille</h4>
+                <h4>Big J San Mateo</h4>
                 <p>San Mateo</p>
-                <a href="sanmateo.php#sunnyvile" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <a href="sanmateo.php#sanmateo" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
               </div> 
             </div>
             <div class="col-lg mx-1 branchinfo"> 

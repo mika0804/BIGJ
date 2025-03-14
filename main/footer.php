@@ -16,7 +16,8 @@
           <div class="social-links d-flex mt-4">
             <a href="https://web.facebook.com/GSBigJOfficial" target="_blank"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.youtube.com/@GlobalSurgeOfficial" target="_blank"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.youtube.com/@gsbigjdanceofficial3255" target="_blank"><i class="bi bi-youtube"></i></a>
+            <a href="mailto:bigj@globalsurge.org" target="_blank"><i class="bi bi-envelope"></i></a>
           </div>
         </div>
 

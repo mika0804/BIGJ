@@ -10,80 +10,175 @@
   <!-- End of Navbar -->
 
   <!-- Main -->
-  <div class="container">
-  <iframe src="https://outlook.office365.com/owa/calendar/9a127b550d57423c82ebcdd2903528bd@globalsurge.org/dc93431b4d3e41cca3958b83a454d56410072994079746236359/calendar.html" scrolling="no" width="100%" height="700" frameborder="0"></iframe>
-  </div>
-  <hr class="hrstyle">
-  <div class="container text-center">
-    <div class="row justify-content-center">
-      <div class="col">
-        <h1>Dance Crew Registration</h1>
-        <iframe width="80%" height= "650px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=y6x0CZKnxkCEUotRekCR43XChLSdMUVIvtvSe4ObjdFUQVlSMUFFUllGS1BWMkhJRjQ1UTRKVTRCQy4u&embed=true"> </iframe>
-      </div>
-      
-      <div class="col">
-      <h1>Dance Workshop Registration</h1>
-        <iframe width="80%" height= "650px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=y6x0CZKnxkCEUotRekCR43XChLSdMUVIvtvSe4ObjdFUODQ4UkNLOU8xTFZIVlFKVlRNU1c4RlU5Uy4u&embed=true"> </iframe>
-      </div>
-    </div>
-    <div class="row justify-content-center mt-5">
-      <div class="col">
-      <h1>Camp Volunteer Registration</h1>
-        <iframe width="80%" height= "750px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=y6x0CZKnxkCEUotRekCR43XChLSdMUVIvtvSe4ObjdFUQ00yR0dXMUowQUJGUVBSVUs3V05SOUNBVS4u&embed=true"> </iframe>
-      </div>
-      <div class="col">
-        <h1>Events' Registration</h1>
-        <iframe width="80%" height= "750px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=y6x0CZKnxkCEUotRekCR43XChLSdMUVIvtvSe4ObjdFUNTFUWVNVR05PU0hZVTg5NEFIWjlOVFJNWi4u&embed=true"> </iframe>
-          <!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dance Crew Registration</title>
+  <title>Registration Links</title>
   <style>
+    /* General Body Styling */
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 50px;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 20px;
     }
-    .form-link {
+
+    /* Container Styling */
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Section Styling */
+    .link-section {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .link-section h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .link-section a {
       display: inline-block;
       text-decoration: none;
-      background-color: #f4511e;
+      background-color: #ff4d4d;
       color: white;
-      padding: 15px 25px;
-      font-size: 18px;
+      padding: 15px 30px;
       border-radius: 5px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      transition: background-color 0.3s ease;
+      font-size: 16px;
+      font-weight: bold;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s, transform 0.3s;
     }
-    .form-link:hover {
-      background-color: #d84315;
+    .link-section a:hover {
+      background-color: rgb(156, 97, 97);
+      transform: scale(1.05);
     }
-    .qr-container {
-      margin-top: 30px;
+
+    /* Loading Overlay */
+    .loading-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      visibility: hidden;
+      z-index: 999;
     }
-    .qr-container img {
-      max-width: 200px;
-      margin-top: 10px;
+    .loading-overlay.active {
+      visibility: visible;
+    }
+    .spinner {
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid red;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #ddd;
+      margin: 20px 0;
     }
   </style>
+  <script>
+    function showLoading(event) {
+      event.preventDefault();
+      const loadingOverlay = document.querySelector('.loading-overlay');
+      loadingOverlay.classList.add('active');
+      setTimeout(() => {
+        window.location.href = event.target.href;
+      }, 1000);
+    }
+  </script>
 </head>
 <body>
-  <h1>Dance Crew Registration</h1>
-  <p>Click the button below to fill out the registration form.</p>
-  <a href="https://forms.gle/3ypujwhhuCd4yHLP7" target="_blank" class="form-link">Register Now</a>
+  <!-- Calendar Section -->
+  <div class="container">
+    <iframe 
+      src="https://outlook.office365.com/owa/calendar/9a127b550d57423c82ebcdd2903528bd@globalsurge.org/dc93431b4d3e41cca3958b83a454d56410072994079746236359/calendar.html" 
+      scrolling="yes" 
+      width="100%" 
+      height="700" 
+      frameborder="0">
+    </iframe>
+  </div>
 
-  <div class="qr-container">
-    <h3>Scan the QR Code to Register</h3>
-    <img src="qr-code.png" alt="Dance Crew Registration QR Code">
+  <hr>
+
+  <!-- Office Form Links -->
+  <div class="container">
+    <h1>Registration Links (Office Form)</h1>
+    <div class="link-section">
+      <h1>Dance Crew Registration</h1>
+      <a href="https://forms.office.com/r/pcedSfGbfK" target="_blank">Register Here</a>
+    </div>
+    <div class="link-section">
+      <h1>Dance Workshop Registration</h1>
+      <a href="https://forms.office.com/r/iBgeRWDVFS" target="_blank">Register Here</a>
+    </div>
+    <div class="link-section">
+      <h1>Camp Volunteer Registration</h1>
+      <a href="https://forms.office.com/r/rjTzhDRTy9" target="_blank">Register Here</a>
+    </div>
+    <div class="link-section">
+      <h1>Events' Registration</h1>
+      <a href="https://forms.office.com/r/dTeVZifBVL" target="_blank">Register Here</a>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Google Form Links -->
+  <div class="container">
+    <h1>Registration Links (Google Form)</h1>
+    <div class="link-section">
+      <h1>Dance Crew Registration</h1>
+      <a href="https://forms.gle/8kqAsHFXDAF2EhRU8" target="_blank" onclick="showLoading(event)">Register Here</a>
+    </div>
+    <div class="link-section">
+      <h1>Dance Workshop Registration</h1>
+      <a href="https://forms.gle/vCb8eeteKF8EwieH7" target="_blank" onclick="showLoading(event)">Register Here</a>
+    </div>
+    <div class="link-section">
+      <h1>Camp Volunteer Registration</h1>
+      <a href="https://forms.gle/aTaxLFwSFPCv4Da2A" target="_blank" onclick="showLoading(event)">Register Here</a>
+    </div>
+    <div class="link-section">
+      <h1>Events' Registration</h1>
+      <a href="https://forms.gle/VHW2oGeH39oGE1578" target="_blank" onclick="showLoading(event)">Register Here</a>
+    </div>
+  </div>
+
+  <!-- Loading Overlay -->
+  <div class="loading-overlay">
+    <div class="spinner"></div>
   </div>
 </body>
 </html>
 
-      </div>
-    </div>
-  </div>
+
+</body>
+</html>
+
   
   <!-- End of Main -->
   <hr class="hrstyle">

@@ -720,3 +720,27 @@ header-image {
 .nav-link:hover {
   color: #b54c50; /* Change this to your desired hover text color */
 }
+
+.read-more {
+  display: inline-flex;
+  align-items: center;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.read-more i {
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+}
+
+.read-more:hover i {
+  transform: translateX(5px); /* Moves arrow to the right */
+}
+
+.read-more:hover {
+  color: #ce2e2e;
+  text-decoration: underline;
+}
