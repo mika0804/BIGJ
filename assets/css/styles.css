@@ -744,3 +744,62 @@ header-image {
   color: #ce2e2e;
   text-decoration: underline;
 }
+.col img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.container.section-title {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.colliding-text {
+  display: inline-block;
+  font-size: 2.5rem; /* Adjust size as needed */
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: relative;
+  color: #ff5722; /* Text color */
+}
+
+.colliding-text span {
+  display: inline-block;
+  transform: translateX(100vw); /* Start from off-screen */
+  animation: collide 2s ease-out forwards;
+  position: relative;
+}
+
+.colliding-text span:nth-child(odd) {
+  animation-delay: 0.2s; /* Staggered delay */
+}
+
+.colliding-text span:nth-child(even) {
+  animation-delay: 0.4s; /* Staggered delay */
+}
+
+/* Keyframes for the collision effect */
+@keyframes collide {
+  0% {
+    transform: translateX(100vw); /* Start off-screen from the right */
+  }
+  50% {
+    transform: translateX(0) scale(1.1); /* Slight zoom-in on collision */
+  }
+  70% {
+    transform: translateX(-10px) scale(1); /* Bounce back slightly */
+  }
+  100% {
+    transform: translateX(0); /* Settle in place */
+  }
+}
+
+/* Hover effect to make it dynamic */
+.colliding-text span:hover {
+  transform: scale(1.2) rotate(5deg); /* Add interactivity on hover */
+  transition: transform 0.3s ease;
+}

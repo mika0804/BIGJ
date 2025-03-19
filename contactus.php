@@ -21,40 +21,68 @@
     </div><!-- End Section Title -->
 
     <div class="container">
+  <div class="row gy-4" data-aos="zoom-out" data-aos-once="true">
+    <!-- Address -->
+    <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+      <a 
+        href="https://www.google.com/maps/search/?api=1&query=Dr.+Sixto+Antonio+Ave.+Caniogan,+Pasig+City,+1606+Metro+Manila" 
+        target="_blank" 
+        class="info-item text-center d-flex flex-column align-items-center"
+        style="text-decoration: none; color: inherit; width: 100%;"
+      >
+        <i class="bi bi-geo-alt" style="font-size: 3rem; margin-bottom: 10px;"></i>
+        <h3>Address</h3>
+        <p>Dr. Sixto Antonio Ave. Caniogan, Pasig City, 1606 Metro Manila</p>
+      </a>
+    </div>
 
-      <div class="row gy-4" data-aos="zoom-out" data-aos-once=“true”>
-        <div class="col-lg-6" data-aos="zoom-out" data-aos-once=“true”>
-          <div class="info-item d-flex flex-column justify-content-center align-items-center">
-            <i class="bi bi-geo-alt"></i>
-            <h3>Address</h3>
-            <p>Dr. Sixto Antonio Ave. Caniogan, Pasig City, 1606 Metro Manila</p>
-          </div>
-        </div><!-- End Info Item -->
+    <!-- Call Us -->
+    <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+      <a 
+        href="tel:+639942618400" 
+        class="info-item text-center d-flex flex-column align-items-center" 
+        style="text-decoration: none; color: inherit; width: 100%;"
+      >
+        <i class="bi bi-telephone" style="font-size: 3rem; margin-bottom: 10px;"></i>
+        <h3>Call Us</h3>
+        <p>+639942618400</p>
+      </a>
+    </div>
 
-        <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-once=“true”>
-          <div class="info-item d-flex flex-column justify-content-center align-items-center">
-            <i class="bi bi-telephone"></i>
-            <h3>Call Us</h3>
-            <p>+639942618400</p>
-          </div>
-        </div><!-- End Info Item -->
+    <!-- Email Us -->
+    <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+      <a 
+        href="mailto:bigj@globalsurge.org" 
+        class="info-item text-center d-flex flex-column align-items-center" 
+        style="text-decoration: none; color: inherit; width: 100%;"
+      >
+        <i class="bi bi-envelope" style="font-size: 3rem; margin-bottom: 10px;"></i>
+        <h3>Email Us</h3>
+        <p>bigj@globalsurge.org</p>
+      </a>
+    </div>
+  </div>
+</div>
 
-        <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-once=“true”>
-          <div class="info-item d-flex flex-column justify-content-center align-items-center">
-            <i class="bi bi-envelope"></i>
-            <h3>Email Us</h3>
-            <p>bigj@globalsurge.org</p>
-          </div>
         </div><!-- End Info Item -->
 
       </div>
 
-      <div class="row gy-4 mt-1" data-aos="zoom-out" data-aos-once=“true”>
-        <div class="col-lg-6">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4028.600461305363!2d121.07583290979743!3d14.565940390727267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c87777938deb%3A0x7f7e5476021cee1c!2sGlobal%20Surge%20Worship%20Center%20Pasig!5e1!3m2!1sen!2sph!4v1726388639816!5m2!1sen!2sph"
-            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="container">
+  <div class="row gy-4 mt-1" data-aos="zoom-out" data-aos-once="true">
+    <div class="col-lg-12 d-flex justify-content-center align-items-center">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4028.600461305363!2d121.07583290979743!3d14.565940390727267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c87777938deb%3A0x7f7e5476021cee1c!2sGlobal%20Surge%20Worship%20Center%20Pasig!5e1!3m2!1sen!2sph!4v1726388639816!5m2!1sen!2sph"
+        width="100%"
+        height="400"
+        style="border:0; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </div>
+</div>
         </div><!-- End Google Maps -->
 
         <div class="col-lg-6" data-aos="zoom-out" data-aos-once=“true”>

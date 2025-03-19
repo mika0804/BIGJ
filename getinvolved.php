@@ -112,60 +112,112 @@
 </head>
 <body>
   <!-- Calendar Section -->
-  <div class="container">
-    <iframe 
-      src="https://outlook.office365.com/owa/calendar/9a127b550d57423c82ebcdd2903528bd@globalsurge.org/dc93431b4d3e41cca3958b83a454d56410072994079746236359/calendar.html" 
-      scrolling="yes" 
-      width="100%" 
-      height="700" 
-      frameborder="0">
-    </iframe>
+  <div class="container" style="margin: 20px auto; text-align: center; max-width: 1200px;">
+    <h2 style="margin-bottom: 20px;">Event Calendar</h2>
+    <div style="border: 2px solidrgb(158, 37, 37); border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+        <iframe 
+            src="https://outlook.office365.com/owa/calendar/9a127b550d57423c82ebcdd2903528bd@globalsurge.org/dc93431b4d3e41cca3958b83a454d56410072994079746236359/calendar.html" 
+            scrolling="yes" 
+            width="100%" 
+            height="800" 
+            frameborder="0" 
+            style="border: none;">
+        </iframe>
+    </div>
+</div>
+
   </div>
 
   <hr>
 
   <!-- Office Form Links -->
   <div class="container">
-    <h1>Registration Links (Office Form)</h1>
-    <div class="link-section">
-      <h1>Dance Crew Registration</h1>
-      <a href="https://forms.office.com/r/pcedSfGbfK" target="_blank">Register Here</a>
+    <h1 style="text-align: center;">Registration Links (Office Form)</h1>
+    <div class="link-section" style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px; gap: 20px;">
+        <div style="text-align: center; flex: 1;">
+            <h2>Dance Crew Registration</h2>
+            <a href="https://forms.office.com/r/pcedSfGbfK" target="_blank">Register Here</a>
+        </div>
+        <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/img/crew.jpg" alt="Dance Crew QR Code" style="width: 150px; height: 150px;">
+        </div>
     </div>
-    <div class="link-section">
-      <h1>Dance Workshop Registration</h1>
-      <a href="https://forms.office.com/r/iBgeRWDVFS" target="_blank">Register Here</a>
+    <div class="link-section" style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px; gap: 20px;">
+        <div style="text-align: center; flex: 1;">
+            <h2>Dance Workshop Registration</h2>
+            <a href="https://forms.office.com/r/iBgeRWDVFS" target="_blank">Register Here</a>
+        </div>
+        <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/img/dancers.jpg" alt="Dance Workshop QR Code" style="width: 150px; height: 150px;">
+        </div>
     </div>
-    <div class="link-section">
-      <h1>Camp Volunteer Registration</h1>
-      <a href="https://forms.office.com/r/rjTzhDRTy9" target="_blank">Register Here</a>
+    <div class="link-section" style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px; gap: 20px;">
+        <div style="text-align: center; flex: 1;">
+            <h2>Camp Volunteer Registration</h2>
+            <a href="https://forms.office.com/r/rjTzhDRTy9" target="_blank">Register Here</a>
+        </div>
+        <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/img/crews.jpg" alt="Camp Volunteer QR Code" style="width: 150px; height: 150px;">
+        </div>
     </div>
-    <div class="link-section">
-      <h1>Events' Registration</h1>
-      <a href="https://forms.office.com/r/dTeVZifBVL" target="_blank">Register Here</a>
+    <div class="link-section" style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px; gap: 20px;">
+        <div style="text-align: center; flex: 1;">
+            <h2>Events' Registration</h2>
+            <a href="https://forms.office.com/r/dTeVZifBVL" target="_blank">Register Here</a>
+        </div>
+        <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/img/events.jpg" alt="Events QR Code" style="width: 150px; height: 150px;">
+        </div>
     </div>
+</div>
+
+</div>
+
   </div>
 
   <hr>
 
   <!-- Google Form Links -->
   <div class="container">
-    <h1>Registration Links (Google Form)</h1>
-    <div class="link-section">
-      <h1>Dance Crew Registration</h1>
-      <a href="https://forms.gle/8kqAsHFXDAF2EhRU8" target="_blank" onclick="showLoading(event)">Register Here</a>
+    <h1 style="text-align: center;">Registration Links (Google Form)</h1>
+    <div class="link-section" style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px; gap: 20px;">
+        <div style="text-align: center; flex: 1;">
+            <h2>Dance Crew Registration</h2>
+            <a href="https://forms.gle/8kqAsHFXDAF2EhRU8" target="_blank">Register Here</a>
+        </div>
+        <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/img/form1.jpg" alt="Dance Crew QR Code" style="width: 150px; height: 150px;">
+        </div>
     </div>
-    <div class="link-section">
-      <h1>Dance Workshop Registration</h1>
-      <a href="https://forms.gle/vCb8eeteKF8EwieH7" target="_blank" onclick="showLoading(event)">Register Here</a>
+    <div class="link-section" style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px; gap: 20px;">
+        <div style="text-align: center; flex: 1;">
+            <h2>Dance Workshop Registration</h2>
+            <a href="https://forms.gle/vCb8eeteKF8EwieH7" target="_blank">Register Here</a>
+        </div>
+        <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/img/form2.jpg" alt="Dance Workshop QR Code" style="width: 150px; height: 150px;">
+        </div>
     </div>
-    <div class="link-section">
-      <h1>Camp Volunteer Registration</h1>
-      <a href="https://forms.gle/aTaxLFwSFPCv4Da2A" target="_blank" onclick="showLoading(event)">Register Here</a>
+    <div class="link-section" style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px; gap: 20px;">
+        <div style="text-align: center; flex: 1;">
+            <h2>Camp Volunteer Registration</h2>
+            <a href="https://forms.gle/aTaxLFwSFPCv4Da2A" target="_blank">Register Here</a>
+        </div>
+        <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/img/form3.jpg" alt="Camp Volunteer QR Code" style="width: 150px; height: 150px;">
+        </div>
     </div>
-    <div class="link-section">
-      <h1>Events' Registration</h1>
-      <a href="https://forms.gle/VHW2oGeH39oGE1578" target="_blank" onclick="showLoading(event)">Register Here</a>
+    <div class="link-section" style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px; gap: 20px;">
+        <div style="text-align: center; flex: 1;">
+            <h2>Events' Registration</h2>
+            <a href="https://forms.gle/VHW2oGeH39oGE1578L" target="_blank">Register Here</a>
+        </div>
+        <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/img/form4.jpg" alt="Events QR Code" style="width: 150px; height: 150px;">
+        </div>
     </div>
+</div>
+
   </div>
 
   <!-- Loading Overlay -->

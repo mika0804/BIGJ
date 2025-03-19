@@ -26,7 +26,7 @@
             <img src="../assets/img/Logos/GlobalSurgeLogo.png" alt="Global Surge Logo">
           </a>
           <a class="navbar-brand navbar navbrand" href="index.php">
-            <img src="../assets/img/Logos/RedLogoTransparent.png" alt="Big J Logo">
+            <img src="../assets/img/Logos/BIGJ.jpg" alt="Big J Logo">
             <div class="d-flex flex-column text-white">
               <!-- <p class="mb-1">DANCE</p>
               <p class="mb-1">COMMUNITY</p> -->

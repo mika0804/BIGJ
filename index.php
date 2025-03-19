@@ -127,34 +127,130 @@
           </p>
         </div>
 
-        <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-once=“true”>
-        <div class="fb-container">
+        <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-once="true">
+    <div class="fb-container" style="max-width: 100%; display: flex; justify-content: center;">
         <iframe
-            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGSBigJOfficial&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
-            width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGSBigJOfficial&tabs=timeline&width=800&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+            width="800" height="800" style="border:none;overflow:hidden;max-width:100%" scrolling="no" frameborder="0"
             allowfullscreen="true"
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-            </div>  
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+        </iframe>
+    </div>  
+</div>
+
         </div>
       </div>
-      <div class="row gy-4" data-aos="fade-up" data-aos-once=“true”>
-        <div class="col about-images">
-          <div class="row justify-content-center">
-            <div class="col">
-              <a href="assets/img/who-we-are (1).png" data-fancybox="abouts">
-                <img src="assets/img/who-we-are (1).png" class="img-fluid" alt="">
-              </a>
-            </div>
-            <div class="col">
-              <a href="assets/img/who-we-are (2).png" data-fancybox="abouts">
-                <img src="assets/img/who-we-are (2).png" class="img-fluid" alt="">
-              </a>
-            </div>
-            <div class="col">
-              <a href="assets/img/who-we-are (3).png" data-fancybox="abouts">
-                <img src="assets/img/who-we-are (3).png" class="img-fluid" alt="">
-              </a>
-            </div>
+      <div class="row gy-4" data-aos="fade-up" data-aos-once="true">
+  <div class="col about-images">
+    <div class="row justify-content-center">
+      <!-- Dance Album -->
+      <div class="col">
+        <a href="assets/img/dance.jpg" data-fancybox="album3">
+          <img src="assets/img/dance.jpg" class="thumbnail" alt="Dance Thumbnail">
+        </a>
+        <a href="assets/img/audition.jpg" data-fancybox="album3" style="display: none;">
+          <img src="assets/img/audition.jpg" alt="audition">
+        </a>
+        <a href="assets/img/dance1.jpg" data-fancybox="album3" style="display: none;">
+          <img src="assets/img/dance1.jpg" alt="dance1">
+        </a>
+        <a href="assets/img/dances.jpg" data-fancybox="album3" style="display: none;">
+          <img src="assets/img/dances.jpg" alt="Dancer 3">
+        </a>
+        <a href="assets/img/word.jpg" data-fancybox="album3" style="display: none;">
+          <img src="assets/img/word.jpg" alt="word">
+        </a>
+        <a href="assets/img/workshop.jpg" data-fancybox="album3" style="display: none;">
+          <img src="assets/img/workshop.jpg" alt="workshop">
+        </a>
+        <a href="assets/img/workshop2.jpg" data-fancybox="album3" style="display: none;">
+          <img src="assets/img/workshop2.jpg" alt="workshop2">
+        </a>
+      </div>
+
+      <!-- Leadership Team Album -->
+      <div class="col">
+        <a href="assets/img/LEADERSHIP TEAM.jpg" data-fancybox="album2">
+          <img src="assets/img/LEADERSHIP TEAM.jpg" class="thumbnail" alt="Leadership Team Thumbnail">
+        </a>
+        <a href="assets/img/leader.jpg" data-fancybox="album2" style="display: none;">
+          <img src="assets/img/leader.jpg" alt="leader">
+        </a>
+        <a href="assets/img/one.jpg" data-fancybox="album2" style="display: none;">
+          <img src="assets/img/one.jpg" alt="one">
+        </a>
+        <a href="assets/img/only.jpg" data-fancybox="album2" style="display: none;">
+          <img src="assets/img/only.jpg" alt="only">
+        </a>
+        <a href="assets/img/praise.jpg" data-fancybox="album2" style="display: none;">
+          <img src="assets/img/praise.jpg" alt="praise">
+        </a>
+        <a href="assets/img/yes.jpg" data-fancybox="album2" style="display: none;">
+          <img src="assets/img/yes.jpg" alt="yes">
+        </a>
+      </div>
+
+      <!-- Who We Are Album -->
+      <div class="col">
+        <a href="assets/img/who-we-are (3).png" data-fancybox="album1">
+          <img src="assets/img/who-we-are (3).png" class="thumbnail" alt="Album 1 Thumbnail">
+        </a>
+        <a href="assets/img/alpha.jpg" data-fancybox="album1" style="display: none;">
+          <img src="assets/img/alpha.jpg" alt="Alpha">
+        </a>
+        <a href="assets/img/beta.jpg" data-fancybox="album1" style="display: none;">
+          <img src="assets/img/beta.jpg" alt="Beta">
+        </a>
+        <a href="assets/img/charlie.jpg" data-fancybox="album1" style="display: none;">
+          <img src="assets/img/charlie.jpg" alt="Charlie">
+        </a>
+        <a href="assets/img/delta.jpg" data-fancybox="album1" style="display: none;">
+          <img src="assets/img/delta.jpg" alt="Delta">
+        </a>
+        <a href="assets/img/echo.jpg" data-fancybox="album1" style="display: none;">
+          <img src="assets/img/echo.jpg" alt="Echo">
+        </a>
+        <a href="assets/img/foxtrot.jpg" data-fancybox="album1" style="display: none;">
+          <img src="assets/img/foxtrot.jpg" alt="Foxtrot">
+        </a>
+        <a href="assets/img/beige.jpg" data-fancybox="album1" style="display: none;">
+          <img src="assets/img/beige.jpg" alt="beige">
+        </a>
+        <a href="assets/img/black.jpg" data-fancybox="album1" style="display: none;">
+          <img src="assets/img/black.jpg" alt="black">
+        </a>
+        <a href="assets/img/blue.jpg" data-fancybox="album1" style="display: none;">
+          <img src="assets/img/blue.jpg" alt="blue">
+        </a>
+        <a href="assets/img/gray.jpg" data-fancybox="album1" style="display: none;">
+          <img src="assets/img/gray.jpg" alt="gray">
+        </a>
+        <a href="assets/img/green.jpg" data-fancybox="album1" style="display: none;">
+          <img src="assets/img/green.jpg" alt="green">
+        </a>
+        <a href="assets/img/hat.jpg" data-fancybox="album1" style="display: none;">
+          <img src="assets/img/hat.jpg" alt="hat">
+        </a>
+        <a href="assets/img/mask.jpg" data-fancybox="album1" style="display: none;">
+          <img src="assets/img/mask.jpg" alt="mask">
+        </a>
+        <a href="assets/img/white.jpg" data-fancybox="album1" style="display: none;">
+          <img src="assets/img/white.jpg" alt="white">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  <!-- Fancybox JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+</body>
+</html>
+
+</div>
           </div>
         </div>
       </div>
@@ -468,7 +564,7 @@ Both branches emphasize creativity, community building, and faith-driven artistr
           <div class="row gy-4">
   <div class="col-lg-6" data-aos="fade-up" data-aos-once="true">
     <div class="team-member d-flex align-items-start">
-      <div class="pic"><img src="assets/img/Team/P1.png" class="img-fluid" alt=""></div>
+      <div class="pic"><img src="assets/img/Team/jomalyn.jpg" class="img-fluid" alt=""></div>
       <div class="member-info">
         <h4>Jomalyn Castil</h4>
         <span><b>Executive Director</b>, Community Operations & Strategies</span>
@@ -476,7 +572,8 @@ Both branches emphasize creativity, community building, and faith-driven artistr
         <div class="social">
           <a href="https://web.facebook.com/jomalyn.castil.7" target="_blank"><i class="bi bi-facebook"></i></a>
           <a href="https://www.instagram.com/jlyncastil/" target="_blank"><i class="bi bi-instagram"></i></a>
-          <a href="mailto:joma@globalsurge.org"><i class="bi bi-envelope"></i></a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=joma@globalsurge.org" target="_blank"><i class="bi bi-envelope"></i></a>
+          <a href="mailto:joma@globalsurge.org"><img src="./assets/img/outlook.png" alt="Outlook" style="width: 20px; height: 20px;"></a>
           <a href="tel:09550430339" class="phone"><i class="bi bi-telephone-fill"></i> <i class="phonefont">09550430339</i></a>
         </div>
       </div>
@@ -494,6 +591,7 @@ Both branches emphasize creativity, community building, and faith-driven artistr
           <a href="https://web.facebook.com/bernard.calderon" target="_blank"><i class="bi bi-facebook"></i></a>
           <a href="https://www.instagram.com//" target="_blank"><i class="bi bi-instagram"></i></a>
           <a href="mailto:bernard@globalsurge.org"><i class="bi bi-envelope"></i></a>
+          <a href="mailto:bernard@globalsurge.org"><img src="./assets/img/outlook.png" alt="Outlook" style="width: 20px; height: 20px;"></a>
           <a href="tel:09120031562" class="phone"><i class="bi bi-telephone-fill"></i> <i class="phonefont">09120031562</i></a>
         </div>
       </div>
@@ -511,6 +609,7 @@ Both branches emphasize creativity, community building, and faith-driven artistr
           <a href="https://web.facebook.com/cayCEEngkit" target="_blank"><i class="bi bi-facebook"></i></a>
           <a href="https://www.instagram.com/itsme_ceengkit/" target="_blank"><i class="bi bi-instagram"></i></a>
           <a href="mailto:caycee@globalsurge.org"><i class="bi bi-envelope"></i></a>
+          <a href="mailto:caycee@globalsurge.org"><img src="./assets/img/outlook.png" alt="Outlook" style="width: 20px; height: 20px;"></a>
           <a href="tel:09636688899" class="phone"><i class="bi bi-telephone-fill"></i> <i class="phonefont">09636688899</i></a>
         </div>
       </div>
@@ -528,6 +627,7 @@ Both branches emphasize creativity, community building, and faith-driven artistr
           <a href="https://web.facebook.com/Eraizaquimpo" target="_blank"><i class="bi bi-facebook"></i></a>
           <a href="https://www.instagram.com//" target="_blank"><i class="bi bi-instagram"></i></a>
           <a href="mailto:eraiza@globalsurge.org"><i class="bi bi-envelope"></i></a>
+          <a href="mailto:eraiza@globalsurge.org"><img src="./assets/img/outlook.png" alt="Outlook" style="width: 20px; height: 20px;"></a>
           <a href="tel:09066779379" class="phone"><i class="bi bi-telephone-fill"></i> <i class="phonefont">09066779379</i></a>
         </div>
       </div>
@@ -545,6 +645,7 @@ Both branches emphasize creativity, community building, and faith-driven artistr
           <a href="https://web.facebook.com/Pollys.mhay" target="_blank"><i class="bi bi-facebook"></i></a>
           <a href="https://www.instagram.com/poulmagpusao/" target="_blank"><i class="bi bi-instagram"></i></a>
           <a href="mailto:poul@globalsurge.org"><i class="bi bi-envelope"></i></a>
+          <a href="mailto:poul@globalsurge.org"><img src="./assets/img/outlook.png" alt="Outlook" style="width: 20px; height: 20px;"></a>
           <a href="tel:09922246938" class="phone"><i class="bi bi-telephone-fill"></i> <i class="phonefont">09922246938</i></a>
         </div>
       </div>
@@ -562,6 +663,7 @@ Both branches emphasize creativity, community building, and faith-driven artistr
           <a href="https://web.facebook.com/bertmelan02" target="_blank"><i class="bi bi-facebook"></i></a>
           <a href="https://www.instagram.com/_iamberto/" target="_blank"><i class="bi bi-instagram"></i></a>
           <a href="mailto:bert@globalsurge.org"><i class="bi bi-envelope"></i></a>
+          <a href="mailto:bert@globalsurge.org"><img src="./assets/img/outlook.png" alt="Outlook" style="width: 20px; height: 20px;"></a>
           <a href="tel:09705260714" class="phone"><i class="bi bi-telephone-fill"></i> <i class="phonefont">09705260714</i></a>
         </div>
       </div>
@@ -579,6 +681,7 @@ Both branches emphasize creativity, community building, and faith-driven artistr
           <a href="https://web.facebook.com/AndreaEbin" target="_blank"><i class="bi bi-facebook"></i></a>
           <a href="https://www.instagram.com/andrea_ebin/" target="_blank"><i class="bi bi-instagram"></i></a>
           <a href="mailto:andrea@globalsurge.org"><i class="bi bi-envelope"></i></a>
+          <a href="mailto:andrea@globalsurge.org"><img src="./assets/img/outlook.png" alt="Outlook" style="width: 20px; height: 20px;"></a>
           <a href="tel:09234567890" class="phone"><i class="bi bi-telephone-fill"></i> <i class="phonefont">09234567890</i></a>
         </div>
       </div>
@@ -596,7 +699,9 @@ Both branches emphasize creativity, community building, and faith-driven artistr
           <a href="https://web.facebook.com/michie.orcales.14" target="_blank"><i class="bi bi-facebook"></i></a>
           <a href="https://www.instagram.com/michelleorcales/" target="_blank"><i class="bi bi-instagram"></i></a>
           <a href="mailto:michelle@globalsurge.org"><i class="bi bi-envelope"></i></a>
+          <a href="mailto:michelle@globalsurge.org"><img src="./assets/img/outlook.png" alt="Outlook" style="width: 20px; height: 20px;"></a>
           <a href="tel:09306691093" class="phone"><i class="bi bi-telephone-fill"></i> <i class="phonefont">09306691093</i></a>
+          
         </div>
       </div>
     </div>
@@ -613,6 +718,7 @@ Both branches emphasize creativity, community building, and faith-driven artistr
           <a href="https://web.facebook.com/Cyrasnotavailable.234" target="_blank"><i class="bi bi-facebook"></i></a>
           <a href="https://www.instagram.com/jadeee_isnt_available_to_an1/" target="_blank"><i class="bi bi-instagram"></i></a>
           <a href="mailto:cyra@globalsurge.org"><i class="bi bi-envelope"></i></a>
+          <a href="mailto:cyra@globalsurge.org"><img src="./assets/img/outlook.png" alt="Outlook" style="width: 20px; height: 20px;"></a>
           <a href="tel:09159848293" class="phone"><i class="bi bi-telephone-fill"></i> <i class="phonefont">09159848293</i></a>
         </div>
       </div>

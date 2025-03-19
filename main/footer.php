@@ -18,6 +18,7 @@
             <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
             <a href="https://www.youtube.com/@gsbigjdanceofficial3255" target="_blank"><i class="bi bi-youtube"></i></a>
             <a href="mailto:bigj@globalsurge.org" target="_blank"><i class="bi bi-envelope"></i></a>
+            <a href="mailto:bigj@globalsurge.org"><img src="./assets/img/outlook.png" alt="Outlook" style="width: 20px; height: 20px;"></a>
           </div>
         </div>
 
