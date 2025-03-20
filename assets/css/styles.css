@@ -803,3 +803,325 @@ header-image {
   transform: scale(1.2) rotate(5deg); /* Add interactivity on hover */
   transition: transform 0.3s ease;
 }
+
+/* Whatsnew */
+.news-carousel {
+  --carousel-height: 550px;
+  --carousel-width: 1800px;
+  --carousel-item-height: 250px;
+  --carousel-item-width: 400px;
+
+  width: 100%;
+}
+
+/* Large screens (desktops) */
+@media (max-width: 1440px) {
+  .news-carousel {
+    --carousel-height: 360px;
+    --carousel-width: 960px;
+    --carousel-item-height: 160px;
+    --carousel-item-width: 270px;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 1024px) {
+  .news-carousel {
+    --carousel-height: 300px;
+    --carousel-width: 100%;
+    --carousel-item-height: 140px;
+    --carousel-item-width: 220px;
+  }
+}
+
+/* Small screens (mobile) */
+@media (max-width: 768px) {
+  .news-carousel {
+    --carousel-height: 220px;
+    --carousel-width: 100%;
+    --carousel-item-height: 120px;
+    --carousel-item-width: 180px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .news-carousel {
+    --carousel-height: 160px;
+    --carousel-width: 100%;
+    --carousel-item-height: 90px;
+    --carousel-item-width: 140px;
+  }
+}
+
+.news-carousel-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: var(--carousel-height);
+  margin: 0 auto;
+  max-width: var(--carousel-width);
+  position: relative;
+}
+
+.news-carousel-item {
+  height: var(--carousel-item-height);
+  opacity: 0;
+  position: absolute;
+  transform: translateX(-50%);
+  transition: all 0.3s ease-in-out;
+  width: var(--carousel-item-width);
+  z-index: 0;
+  border-radius: 10px;
+}
+
+/* Leftmost item */
+.news-carousel-item-1 {
+  left: 15%;
+  opacity: 0.2;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Slightly bigger side items but with less visibility */
+.news-carousel-item-2,
+.news-carousel-item-4 {
+  height: calc(var(--carousel-item-height) * 1.3);
+  opacity: 0.5; 
+  width: calc(var(--carousel-item-width) * 1.3);
+  z-index: 1;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.news-carousel-item-2 {
+  left: 30%;
+}
+
+/* Main (center) item */
+.news-carousel-item-3 {
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.7), 
+              0 0 90px rgba(255, 255, 255, 0.5), 
+              0 0 140px rgba(255, 255, 255, 0.3), 
+              0 0 120px rgba(255, 255, 255, 0.2);
+  height: calc(var(--carousel-item-height) * 2);
+  opacity: 1;
+  left: 50%;
+  width: calc(var(--carousel-item-width) * 2);
+  z-index: 2;
+}
+
+/* Right-side item */
+.news-carousel-item-4 {
+  left: 70%;
+}
+
+/* Rightmost item */
+.news-carousel-item-5 {
+  left: 85%;
+  opacity: 0.2; /* Less visibility */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+/* News Carousel Controls (if needed) */
+.news-carousel-controls {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+/* Title and Description Styling */
+.news-carousel-title,
+.news-carousel-description {
+  font-size: 25px;
+  max-width: 700px;
+  word-wrap: break-word;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Poppins', sans-serif; 
+}
+
+/* Title Styling */
+.news-carousel-title {
+  font-size: 30px;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+/* Description Styling */
+.news-carousel-description {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 50px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Smooth Transition */
+.news-carousel-title,
+.news-carousel-description {
+  transition: all 0.3s ease;
+}
+
+.news-carousel-title:hover,
+.news-carousel-description:hover {
+  color: #000;
+  transform: scale(1.03);
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  position: relative;
+  max-width: 700px;
+  width: 80%;
+  max-height: 90vh; /* Restrict height to viewport */
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.modal-container {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.modal-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.modal-left img {
+  width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 10px 0 0 10px;
+  user-select: none;
+  cursor: default;
+}
+
+.modal-right {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 10px 10px 0;
+  overflow-y: auto; 
+}
+
+.modal-right h2 {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.modal-right p {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 50px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.modal-hr {
+  height: 4px;
+  background-color: #000;
+  margin: 10px 0;
+}
+
+.close-modal {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  color: rgb(8, 8, 8);
+}
+
+.news-zoom-icon {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s ease-in-out;
+  z-index: 10px;
+  opacity: 50%;
+}
+
+.news-zoom-icon:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* Position the zoom buttons */
+.zoom-in {
+  top: 10px;
+  left: 50px;
+}
+
+.zoom-out {
+  top: 10px;
+  left: 10px;
+}
+
+@media screen and (min-width: 1920px) {
+  .modal-content {
+    max-width: 1200px; /* Increase size for large screens */
+    width: 70%;
+  }
+
+  .modal-right h2 {
+    font-size: 30px;
+  }
+
+  .modal-right p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .modal-content {
+    max-width: 1400px; /* Even larger for ultra-wide screens */
+    width: 60%;
+  }
+
+  .modal-right h2 {
+    font-size: 32px;
+  }
+
+  .modal-right p {
+    font-size: 22px;
+  }
+}
