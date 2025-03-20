@@ -277,7 +277,7 @@
   <section class="timeline">
     <div id="timeline" class="container section-title" data-aos="fade-up" data-aos-once=“true”>
       <h2>TIMELINE</h2>
-      <p>History of Big J Community</p>
+      <p style="margin-bottom: 50px;">History of Big J Community</p>
     </div>
     <div class="container">
       <div id="carouselExampleIndicators" class="carousel slide" data-aos="fade-up" data-aos-once=“true”>
