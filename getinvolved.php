@@ -21,12 +21,12 @@
     body {
       font-family: Arial, sans-serif;
       background-color: #f7f7f7;
-      margin: 0;
+      margin: -20px;
       padding: 20px;
     }
 
     /* Container Styling */
-    .container {
+    .registerContainer {
       max-width: 800px;
       margin: 20px auto;
       padding: 20px;
@@ -98,6 +98,7 @@
       background-color: #ddd;
       margin: 20px 0;
     }
+    
   </style>
   <script>
     function showLoading(event) {
@@ -128,10 +129,10 @@
 
   </div>
 
-  <hr>
+  <hr class="hrstyle" style="background-color: white;">
 
   <!-- Office Form Links -->
-  <div class="container">
+  <div class="registerContainer">
     <h1 style="text-align: center;">Registration Links (Office Form)</h1>
     <div class="link-section" style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px; gap: 20px;">
         <div style="text-align: center; flex: 1;">
@@ -178,7 +179,7 @@
   <hr>
 
   <!-- Google Form Links -->
-  <div class="container">
+  <div class="registerContainer">
     <h1 style="text-align: center;">Registration Links (Google Form)</h1>
     <div class="link-section" style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px; gap: 20px;">
         <div style="text-align: center; flex: 1;">
@@ -220,25 +221,16 @@
 
   </div>
 
-  <!-- Loading Overlay -->
-  <div class="loading-overlay">
-    <div class="spinner"></div>
-  </div>
-</body>
-</html>
-
-
-</body>
-</html>
-
-  
   <!-- End of Main -->
-  <hr class="hrstyle">
+  <hr class="hrstyle" style="background-color: white;">
 
   <!-- Footer -->
   <?php include 'main/footer.php'; ?>
   <!-- End of Footer-->
 
+  <!-- Loading Overlay -->
+  <div class="loading-overlay">
+    <div class="spinner"></div>
+  </div>
 </body>
-
 </html>
