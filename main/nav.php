@@ -106,9 +106,6 @@
               </li> 
             </ul>
           </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link" aria-current="page" href="whatsnew.php">WHAT'S NEW</a>
-          </li>
           <li class="nav-item dropdown mx-2">
             <a class="nav-link" href="getinvolved.php" role="button" data-bs-hover="dropdown" aria-expanded="false">
             GET INVOLVED
@@ -118,6 +115,9 @@
               <li><a class="dropdown-item" href="getinvolved.php#forms">INVOLVEMENT FORMS</a></li>
             </ul>
           </li> 
+          <li class="nav-item mx-2">
+            <a class="nav-link" aria-current="page" href="whatsnew.php">WHAT'S NEW</a>
+          </li>
           <li class="nav-item mx-2">
             <a class="nav-link" href="contactus.php">CONTACT US</a>
           </li>
@@ -139,13 +139,14 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
+      <img id="qrImage" src="" alt="QR Code" class="img fluid mt-2" style="max-width: 80%; display: block; margin: auto;">
         Bank Information
         </br>
         GCash: 09452877313 (R.P.) 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+        <a id="downloadQR" href="" download="qrcode.jpg" class="btn btn-primary"> Download QR Code </a>
       </div>
     </div>
   </div>
