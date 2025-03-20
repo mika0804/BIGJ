@@ -85,8 +85,8 @@
 </div>
         </div><!-- End Google Maps -->
 
-        <div class="col-lg-6" data-aos="zoom-out" data-aos-once=“true”>
-          <form action="forms/contact.php" method="POST" class="php-email-form">
+        <div class="col-lg-12 d-flex justify-content-center align-items-center" data-aos="zoom-out" data-aos-once=“true”>
+          <form action="forms/contact.php" method="POST" class="php-email-form" style="margin-top: 30px;">
             <div class="row gy-4">
 
               <div class="col-md-6">
@@ -107,7 +107,7 @@
 
               <div class="col-md-12 text-center">
                 <div class="loading">Loading</div>
-                <div class="error-message"></div>
+                <div class="error-message">err</div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
 
                 <button type="submit" name="submitContact">Send Message</button>
