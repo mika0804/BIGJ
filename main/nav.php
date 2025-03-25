@@ -139,22 +139,27 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-      <!-- <img id="qrImage" src="" alt="QR Code" class="img fluid mt-2" style="max-width: 80%; display: block; margin: auto;"> -->
-        <h4 style="font-weight: bold; text-align: center; margin-bottom: 20px;">East West Bank Information</h4>
-        <p style="font-weight: bold;">Account Name:</p>
-        <p style="margin-left: 20px;">Youth Jam / Hop Heaven International Inc.</p>
-        <hr>
-        <p style="font-weight: bold;">Account Number:</p>
-        <p style="margin-left: 20px;">2000 5983 8748</p>
+      <img id="donateIMG" src="assets/img/Donation/Donation.jpg" alt="donateIMG" class="img fluid mt-2" style="max-width:80%; display: block; margin: auto;">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="copyAccountNumber()">
+        Copy Account Number
+      </button>
         <!-- <a id="downloadQR" href="" download="qrcode.jpg" class="btn btn-primary"> Download QR Code </a> -->
       </div>
     </div>
   </div>
 </div>
 <!-- End of Modal -->
+
+<script>
+  function copyAccountNumber() {
+    const accountNumber = "2000 5983 8748"; 
+    navigator.clipboard.writeText(accountNumber).then(() => {
+      console.log("Account Number Copied!");
+    });
+  }
+</script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
