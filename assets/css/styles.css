@@ -1125,3 +1125,54 @@ header-image {
     font-size: 22px;
   }
 }
+
+@media screen and (max-width: 1024px) { /* Tablets */
+  .modal-content {
+    max-width: 90%;
+    width: 90%;
+  }
+
+  .modal-right h2 {
+    font-size: 24px;
+  }
+
+  .modal-right p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) { /* Smaller tablets and large phones */
+  .modal-content {
+    max-width: 95%;
+    width: 95%;
+  }
+
+  .modal-right h2 {
+    font-size: 22px;
+  }
+
+  .modal-right p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) { /* Mobile devices */
+  .modal-content {
+    max-width: 100%;
+    width: 100%;
+    padding: 16px;
+  }
+
+  .modal-right{
+    padding: 2px;
+  }
+
+  .modal-right h2 {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+
+  .modal-right p {
+    font-size: 8px;
+  }
+}
