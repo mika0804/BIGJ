@@ -510,7 +510,7 @@ Both branches emphasize creativity, community building, and faith-driven artistr
               <div class="col-md-7">
                 <div class="experience-slide-text">
                   <h3>Branch launched in San Agustin, Zambales</h3>
-                  <p>Brief Description Here</p>
+                  <p>Big J San Agustin is launched in December 27, 2023, as a Big J branch of the Church of Christ in Brgy. San Agustin Iba, Zambales. The Dance Workshop is held every after sunday service.</p>
                 </div>
               </div>
             </div>
