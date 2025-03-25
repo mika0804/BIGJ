@@ -21,61 +21,71 @@
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
             <div class="fw-bold">Big-J Branch Name</div>
-            
+            Big J San Agustin
           </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
             <div class="fw-bold">Launched Date</div>
-              
+              December 27, 2023
           </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
             <div class="fw-bold">Church Name</div>
-              
+              Church of Christ
           </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
             <div class="fw-bold">Executive Pastor's Name</div>
-              
+              Dr. Perfecto H. Segismundo Jr.
           </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
             <div class="fw-bold">Church Complete Address</div>
-            
+            Purok 4, San Agustin, Iba, Zambales
           </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
             <div class="fw-bold">Director's Complete Name</div>
-            
+            Robert E. Morales
           </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
             <div class="fw-bold">Branch Complete Address</div>
-            
+            Brgy. San Agustin Iba, Zambales
           </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
             <div class="fw-bold">Branch Launched Date</div>
-            
+            December 27, 2023
           </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
             <div class="fw-bold">Key People or Team Complete Name and Their Position</div>
-            
+            Julita Montales
+            </br>Hezekiah Gonzales
+            </br>Ray John M. Licayan
+            </br>Joshua Morales
+            </br>Felina Bles Gonzales
+            </br>John Carlo R. Satianes
+            </br>Jaymark L. Sevillina
+            </br>Marian Morales
+            </br>Jasmine Akierra Deguia
+            </br>Johanne Klyde Deguia
+            </br>Jove Kolliope Deguia
           </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
             <div class="fw-bold">Workshop Schedule</div>
-            
+            After Sunday Service
           </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
