@@ -174,6 +174,11 @@ class NewsCarousel {
     // Add event listener for clicking left/right
     this.carouselContainer.addEventListener('click', (event) => this.handleClick(event));
 
+    // Add touch event listeners
+    this.carouselContainer.addEventListener('touchstart', (event) => this.handleTouchStart(event));
+    this.carouselContainer.addEventListener('touchmove', (event) => this.handleTouchMove(event));
+    this.carouselContainer.addEventListener('touchend', (event) => this.handleTouchEnd(event));
+
     // Update title and description for the center image initially
     this.updateTitleAndDescription(3);
   }
@@ -187,6 +192,26 @@ class NewsCarousel {
 
   stopAutoPlay() {
     clearInterval(this.autoPlayInterval); 
+  }
+
+  handleTouchStart(event) {
+    this.touchStartX = event.touches[0].clientX;
+  }
+
+  handleTouchMove(event) {
+    this.touchEndX = event.touches[0].clientX;
+  }
+
+  handleTouchEnd() {
+    const swipeDistance = this.touchStartX - this.touchEndX;
+
+    if (swipeDistance > 50) {
+      // Swipe left → next slide
+      this.next();
+    } else if (swipeDistance < -50) {
+      // Swipe right → previous slide
+      this.previous();
+    }
   }
 
   previous() {
@@ -208,12 +233,12 @@ class NewsCarousel {
       // const shortDescription = centerItem.getAttribute('data-shortDesc');  
 
       // Update title and short description text
-      this.titleContainer.textContent = title;
-      this.shortDescriptionContainer.textContent = shortDescription;
+      // this.titleContainer.textContent = title;
+      // this.shortDescriptionContainer.textContent = shortDescription;
 
-      // Show the title and description
-      this.titleContainer.classList.remove('hidden');
-      this.shortDescriptionContainer.classList.remove('hidden');
+      // // Show the title and description
+      // this.titleContainer.classList.remove('hidden');
+      // this.shortDescriptionContainer.classList.remove('hidden');
     }
   }
 
