@@ -273,279 +273,120 @@
   </section>
   <!-- End of Core Values -->
   <hr class="hrstyle">
-  <!-- Timeline -->
-  <section class="timeline">
-    <div id="timeline" class="container section-title" data-aos="fade-up" data-aos-once=“true”>
-      <h2>TIMELINE</h2>
-      <p style="margin-bottom: 50px;">History of Big J Community</p>
+    <!-- Timeline Section -->
+<section class="timeline1">
+    <div id="timeline" class="container section-title" data-aos="fade-up" data-aos-once="true">
+        <h2>TIMELINE</h2>
+        <p style="margin-bottom: 30px;">History of Big J Community</p>
     </div>
-    <div class="container">
-      <div id="carouselExampleIndicators" class="carousel slide" data-aos="fade-up" data-aos-once=“true”>
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1">
-            <h4>2007</h4>
-            <i class="bi bi-chevron-compact-up"></i>
-          </button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
-            <h4>2009</h4>
-            <i class="bi bi-chevron-compact-up"></i>
-          </button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
-            <h4>2010</h4>
-            <i class="bi bi-chevron-compact-up"></i>
-          </button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4">
-            <h4>2012</h4>
-            <i class="bi bi-chevron-compact-up"></i>
-          </button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5">
-            <h4>2014</h4>
-            <i class="bi bi-chevron-compact-up"></i>
-          </button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6">
-            <h4>2017</h4>
-            <i class="bi bi-chevron-compact-up"></i>
-          </button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7">
-            <h4>2018</h4>
-            <i class="bi bi-chevron-compact-up"></i>
-          </button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8">
-            <h4>2019</h4>
-            <i class="bi bi-chevron-compact-up"></i>
-          </button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9">
-            <h4>2020</h4>
-            <i class="bi bi-chevron-compact-up"></i>
-          </button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10">
-            <h4>2022</h4>
-            <i class="bi bi-chevron-compact-up"></i>
-          </button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11">
-            <h4>2023</h4>
-            <i class="bi bi-chevron-compact-up"></i>
-          </button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11" aria-label="Slide 12">
-            <h4>2024</h4>
-            <i class="bi bi-chevron-compact-up"></i>
-          </button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="experience-slide-one row h-100 align-items-center">
-              <div class="col-md-5">
-                <div class="experience-slide-img">
-                  <img class="rounded img-fluid"
-                    src="assets/img/Logos/181625642_323031792500178_7353910229273216180_n.png" alt="">
-                </div>
-              </div>
-              <div class="col-md-7">
-                <div class="experience-slide-text">
-                  <h3>Big J Dance Ministry established in Pasig</h3>
-                  <p>Big J Pasig is a branch of the Global Surge Worship Center, launched on July 7, 2007. Led by Executive Pastor Cory Lyons and Director Bertmelan Calderon, it is located at Rotonda Pasig City in front of 7/11. The team includes Mildred Armada (Workshop Leader), Nestor Diaz (Workshop Assistant), Samialyn Usman (Workshop Assistant), and Paula Antoinette (CDC). Workshops are held on Wednesdays (3:30 PM - 5:30 PM) and Saturdays (1:00 PM - 3:00 PM). The branch is active on Facebook, YouTube, and TikTok under 'Big J Pasig' and 'Big J 7'.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="experience-slide-one row h-100 align-items-center">
-              <div class="col-md-5">
-                <div class="experience-slide-img">
-                  <img class="rounded img-fluid"
-                    src="assets/img/Logos/181625642_323031792500178_7353910229273216180_n.png" alt="">
-                </div>
-              </div>
-              <div class="col-md-7">
-                <div class="experience-slide-text">
-                  <h3>Branch launched in Floodway</h3>
-                  <p>Global Surge Worship Center in Pasig, led by Cory Lyons and Bertmelan Calderon, hosts workshops on Wednesdays and Saturdays. Key team members include Mildred Armada, Nestor Diaz, Samialyn Usman, and Paula Antoinette. Follow them on Facebook, YouTube, and TikTok as 'Big J Pasig' and 'Big J 7'.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="experience-slide-one row h-100 align-items-center">
-              <div class="col-md-5">
-                <div class="experience-slide-img">
-                  <img class="rounded img-fluid"
-                    src="assets/img/Logos/181625642_323031792500178_7353910229273216180_n.png" alt="">
-                </div>
-              </div>
-              <div class="col-md-7">
-                <div class="experience-slide-text">
-                  <h3>Branch launched in Cavite and Cogeo</h3>
-                  <p>Praise God Movers (Antipolo Cogeo)
-A passionate team dedicated to inspiring through dance workshops and artistic worship, held every Sunday at 11:30 AM.
 
-Big-J Cavite
-Focused on dynamic worship and creative workshops, offering engaging sessions every Saturday from 3:00 PM to 5:00 PM.
+    <!-- Timeline Navigation -->
+    <ul class="timeline" data-aos="fade-up" data-aos-once="true">
+    <li data-year="2007" data-slide-to="0"></li>
+    <li data-year="2009" data-slide-to="1"></li>
+    <li data-year="2010" data-slide-to="2"></li>
+    <li data-year="2012" data-slide-to="3"></li>
+    <li data-year="2014" data-slide-to="4"></li>
+    <li data-year="2017" data-slide-to="5"></li>
+    <li data-year="2018" data-slide-to="6"></li>
+    <li data-year="2019" data-slide-to="7"></li>
+    <li data-year="2020" data-slide-to="8"></li>
+    <li data-year="2022" data-slide-to="9"></li>
+    <li data-year="2023" data-slide-to="10"></li>
+    <li data-year="2024" data-slide-to="11"></li>
+</ul>
 
-Both branches emphasize creativity, community building, and faith-driven artistry.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="experience-slide-one row h-100 align-items-center">
-              <div class="col-md-5">
-                <div class="experience-slide-img">
-                  <img class="rounded img-fluid"
-                    src="assets/img/Logos/181625642_323031792500178_7353910229273216180_n.png" alt="">
-                </div>
-              </div>
-              <div class="col-md-7">
-                <div class="experience-slide-text">
-                  <h3>First Big J Dance Camp at Iba Zambales</h3>
-                  <p>Our Dance Ministry Is Simply The Process By Which We Use Our Gift Of Dance To Share The Gospel Or The Good News Of Jesus Christ To The Lost.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="experience-slide-one row h-100 align-items-center">
-              <div class="col-md-5">
-                <div class="experience-slide-img">
-                  <img class="rounded img-fluid"
-                    src="assets/img/Logos/181625642_323031792500178_7353910229273216180_n.png" alt="">
-                </div>
-              </div>
-              <div class="col-md-7">
-                <div class="experience-slide-text">
-                  <h3>Branch launched in Cubao</h3>
-                  <p>Big J Cubao, part of Metro Manila Bible Community, was launched on June 8, 2017. Located in Sampaguita Street, Novaliches, Quezon City, it is led by Ptr. Glenn Abela and Director Gilbert Amistoso. Workshops are held every Saturday, featuring young dancers expressing their devotion through choreography, blending faith and artistry to inspire others.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="experience-slide-one row h-100 align-items-center">
-              <div class="col-md-5">
-                <div class="experience-slide-img">
-                  <img class="rounded img-fluid"
-                    src="assets/img/Logos/181625642_323031792500178_7353910229273216180_n.png" alt="">
-                </div>
-              </div>
-              <div class="col-md-7">
-                <div class="experience-slide-text">
-                  <h3>Branch launched in San Mateo</h3>
-                  <p>Big J San Mateo, part of Abundant Life Baptist Church, was launched on December 27, 2023. Located at SunnyVille 5 Virgo St. #7, it is led by PTR. Arnel Cruz and Director Denver C. Canciller. Workshops are held every Wednesday, led by Aljon Ignacio Bangkeray.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="experience-slide-one row h-100 align-items-center">
-              <div class="col-md-5">
-                <div class="experience-slide-img">
-                  <img class="rounded img-fluid"
-                    src="assets/img/Logos/181625642_323031792500178_7353910229273216180_n.png" alt="">
-                </div>
-              </div>
-              <div class="col-md-7">
-                <div class="experience-slide-text">
-                  <h3>Branch launched in Marikina</h3>
-                  <p>Brief Description Here</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="experience-slide-one row h-100 align-items-center">
-              <div class="col-md-5">
-                <div class="experience-slide-img">
-                  <img class="rounded img-fluid"
-                    src="assets/img/Logos/181625642_323031792500178_7353910229273216180_n.png" alt="">
-                </div>
-              </div>
-              <div class="col-md-7">
-                <div class="experience-slide-text">
-                  <h3>Branch launched in Rosario</h3>
-                  <p>Big J Rosario, part of G-Surge Church Rosario, was launched on May 4, 2024. Located at Boulevard Covered Court, Purok IV, Rosario Pasig City, it is led by Rodolf S. Tamba and Jezrel De Leon. Workshops are held every Saturday at 1:00 PM. Follow them on YouTube and Facebook: G-SURGE CHURCH DANCE MINISTRY.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="experience-slide-one row h-100 align-items-center">
-              <div class="col-md-5">
-                <div class="experience-slide-img">
-                  <img class="rounded img-fluid"
-                    src="assets/img/Logos/181625642_323031792500178_7353910229273216180_n.png" alt="">
-                </div>
-              </div>
-              <div class="col-md-7">
-                <div class="experience-slide-text">
-                  <h3>Branch launched in Mandaluyong</h3>
-                  <p>Lifewayfellowship Big J, part of Lifewayfellowship.ph, was launched in 2010. Located at 468 CGV Boni Ave., New Zaniga, Mandaluyong City, it is led by Rev. Marlon V. Peregrin and Director Daniel Canlas.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="experience-slide-one row h-100 align-items-center">
-              <div class="col-md-5">
-                <div class="experience-slide-img">
-                  <img class="rounded img-fluid"
-                    src="assets/img/Logos/181625642_323031792500178_7353910229273216180_n.png" alt="">
-                </div>
-              </div>
-              <div class="col-md-7">
-                <div class="experience-slide-text">
-                  <h3>Branch launched in CBF Tumana</h3>
-                  <p>Big J Tumana, Marikina, part of Community Baptist Fellowship, was launched in 2022. Located at 13 J Del Rosario St., it is led by PTR. Rodelle Macale and Director Alexander Buiza. Workshops are held every Saturday from 3:00 PM to 5:00 PM. Social media: Facebook (Ryza Lorrine Rodriguez).</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="experience-slide-one row h-100 align-items-center">
-              <div class="col-md-5">
-                <div class="experience-slide-img">
-                  <img class="rounded img-fluid"
-                    src="assets/img/Logos/181625642_323031792500178_7353910229273216180_n.png" alt="">
-                </div>
-              </div>
-              <div class="col-md-7">
-                <div class="experience-slide-text">
-                  <h3>Branch launched in San Agustin, Zambales</h3>
-                  <p>Big J San Agustin is launched in December 27, 2023, as a Big J branch of the Church of Christ in Brgy. San Agustin Iba, Zambales. The Dance Workshop is held every after sunday service.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="experience-slide-one row h-100 align-items-center">
-              <div class="col-md-5">
-                <div class="experience-slide-img">
-                  <img class="rounded img-fluid"
-                    src="assets/img/Logos/181625642_323031792500178_7353910229273216180_n.png" alt="">
-                </div>
-              </div>
-              <div class="col-md-7">
-                <div class="experience-slide-text">
-                  <h3>1st Wave - May 4, 2024</h3>
-                  <p>San Narciso
-                    </br>Masinag
-                    </br>Rosario
-                  </p>
-                  <h3>2nd Wave - September 7, 2024</h3>
-                  <p>Mandaluyong
-                    </br>BMCFC
-                    </br>Manggahan
-                    </br>VCCF
-                    </br>CBC Caloocan
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+    <!-- Timeline Content -->
+    <div class="timeline-content" data-aos="fade-up" data-aos-once="true">
+        <img id="event-image" src="./assets/img/Logos/181625642_323031792500178_7353910229273216180_n.png" alt="Big J Dance Ministry">
+        <div class="text-content">
+            <h2 id="event-title">Big J Dance Ministry</h2>
+            <p id="event-description">Click on a year in the timeline to see details.</p>
         </div>
-        
-      </div>
     </div>
-  </section>
+</section>
+
+<!-- JavaScript -->
+<script>
+    const timelineData = [
+    {
+        "year": "2007",
+        "title": "Big J Dance Ministry established in Pasig",
+        "description": "Big J Pasig is a branch of the Global Surge Worship Center, launched on July 7, 2007. Led by Executive Pastor Cory Lyons and Director Bertmelan Calderon, it is located at Rotonda Pasig City in front of 7/11. The team includes Mildred Armada (Workshop Leader), Nestor Diaz (Workshop Assistant), Samialyn Usman (Workshop Assistant), and Paula Antoinette (CDC). Workshops are held on Wednesdays (3:30 PM - 5:30 PM) and Saturdays (1:00 PM - 3:00 PM). The branch is active on Facebook, YouTube, and TikTok under 'Big J Pasig' and 'Big J 7'."
+    },
+    {
+        "year": "2009",
+        "title": "Branch launched in Floodway",
+        "description": "Global Surge Worship Center in Pasig, led by Cory Lyons and Bertmelan Calderon, hosts workshops on Wednesdays and Saturdays. Key team members include Mildred Armada, Nestor Diaz, Samialyn Usman, and Paula Antoinette. Follow them on Facebook, YouTube, and TikTok as 'Big J Pasig' and 'Big J 7'."
+    },
+    {
+        "year": "2010",
+        "title": "Branch launched in Cavite and Cogeo",
+        "description": "Praise God Movers (Antipolo Cogeo) is a passionate team dedicated to inspiring through dance workshops and artistic worship, held every Sunday at 11:30 AM. Big J Cavite focuses on dynamic worship and creative workshops, offering engaging sessions every Saturday from 3:00 PM to 5:00 PM. Both branches emphasize creativity, community building, and faith-driven artistry."
+    },
+    {
+        "year": "2012",
+        "title": "First Big J Dance Camp at Iba Zambales",
+        "description": "Our Dance Ministry is simply the process by which we use our gift of dance to share the Gospel or the Good News of Jesus Christ to the lost."
+    },
+    {
+        "year": "2014",
+        "title": "Branch launched in Cubao",
+        "description": "Big J Cubao, part of Metro Manila Bible Community, was launched on June 8, 2017. Located in Sampaguita Street, Novaliches, Quezon City, it is led by Ptr. Glenn Abela and Director Gilbert Amistoso. Workshops are held every Saturday, featuring young dancers expressing their devotion through choreography, blending faith and artistry to inspire others."
+    },
+    {
+        "year": "2017",
+        "title": "Branch launched in San Mateo",
+        "description": "Big J San Mateo, part of Abundant Life Baptist Church, was launched on December 27, 2023. Located at SunnyVille 5 Virgo St. #7, it is led by Ptr. Arnel Cruz and Director Denver C. Canciller. Workshops are held every Wednesday, led by Aljon Ignacio Bangkeray."
+    },
+    {
+        "year": "2018",
+        "title": "Branch launched in Marikina",
+        "description": "Brief Description Here"
+    },
+    {
+        "year": "2019",
+        "title": "Branch launched in Rosario",
+        "description": "Big J Rosario, part of G-Surge Church Rosario, was launched on May 4, 2024. Located at Boulevard Covered Court, Purok IV, Rosario Pasig City, it is led by Rodolf S. Tamba and Jezrel De Leon. Workshops are held every Saturday at 1:00 PM. Follow them on YouTube and Facebook: G-SURGE CHURCH DANCE MINISTRY."
+    },
+    {
+        "year": "2020",
+        "title": "Branch launched in Mandaluyong",
+        "description": "Lifewayfellowship Big J, part of Lifewayfellowship.ph, was launched in 2010. Located at 468 CGV Boni Ave., New Zaniga, Mandaluyong City, it is led by Rev. Marlon V. Peregrin and Director Daniel Canlas."
+    },
+    {
+        "year": "2022",
+        "title": "Branch launched in CBF Tumana",
+        "description": "Big J Tumana, Marikina, part of Community Baptist Fellowship, was launched in 2022. Located at 13 J Del Rosario St., it is led by Ptr. Rodelle Macale and Director Alexander Buiza. Workshops are held every Saturday from 3:00 PM to 5:00 PM. Social media: Facebook (Ryza Lorrine Rodriguez)."
+    },
+    {
+        "year": "2023",
+        "title": "Branch launched in San Agustin, Zambales",
+        "description": "Big J San Agustin was launched on December 27, 2023, as a Big J branch of the Church of Christ in Brgy. San Agustin, Iba, Zambales. The Dance Workshop is held every Sunday after service."
+    },
+    {
+        "year": "2024",
+        "title": "Big J Expansion Year 2024",
+        "description": "On May 4, 2024, the first wave of Big J Dance Ministry\'s expansion saw the launch of new branches in San Narciso and Masinag, along with the relaunch of the Rosario branch. Following this, the second wave on September 7, 2024, continued the movement with new branches opening in BMCFC, Manggahan, VCCF, and CBC Caloocan, while Mandaluyong was officially relaunched."
+    }
+];  
+
+document.querySelectorAll('.timeline li').forEach((item, index) => {
+    item.addEventListener('click', () => {
+        // Remove 'active' class from all timeline items
+        document.querySelectorAll('.timeline li').forEach(li => li.classList.remove('active'));
+
+        // Add 'active' class to clicked item
+        item.classList.add('active');
+
+        // Update title and description
+        document.getElementById('event-title').innerText = timelineData[index].title;
+        document.getElementById('event-description').innerText = timelineData[index].description;
+    });
+});
+
+</script>
+
   <!-- End of Timeline -->
   <hr class="hrstyle">
   <!-- Team -->
