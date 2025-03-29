@@ -122,45 +122,11 @@
             <a class="nav-link" href="contactus.php">CONTACT US</a>
           </li>
         </ul>
-        <a class="text-white text-center w-100 h-100" href="#" style="text-decoration: none;">GIVE ONLINE</a>
-  </button>
-</div>
-
-<style>
-  .hover-fill {
-    position: relative;
-    overflow: hidden;
-    color: white;
-    z-index: 1;
-    transition: color 0.5s ease; /* Adjust color transition if needed */
-  }
-
-  .hover-fill::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background-color:rgb(167, 41, 41); /* Darker blue for the "fill" effect */
-    transition: left 1s ease; /* Slower filling effect (1 second) */
-    z-index: 0;
-  }
-
-  .hover-fill:hover::before {
-    left: 0; /* Move the background to fill the button */
-  }
-
-  .hover-fill a {
-    position: relative;
-    z-index: 1;
-    color: white;
-    text-decoration: none;
-  }
-</style>
-
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-primary me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <a class="text-white" href="#">GIVE ONLINE</a></button>
+        </div>
       </div>
-    </div>
     </div>
   </div>
 </nav>
@@ -176,7 +142,7 @@
       <img id="donateIMG" src="assets/img/Donation/Donation.jpg" alt="donateIMG" class="img fluid mt-2" style="max-width:80%; display: block; margin: auto;">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="copyAccountNumber()">
+      <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="copyAccountNumber()">
         Copy Account Number
       </button>
         <!-- <a id="downloadQR" href="" download="qrcode.jpg" class="btn btn-primary"> Download QR Code </a> -->
