@@ -1232,6 +1232,104 @@ header-image {
       padding: 10px; 
   }
 }
+@media (max-width: 400px) {
+  .formCard {
+    max-width: 350px;
+    height: 350px;
+  }
+
+  .formBg {
+    width: 340px;
+    height: 340px;
+    padding: 15px;
+  }
+
+  .formContent h2 {
+    font-size: 22px;
+  }
+
+  .formLinks a {
+    width: 130px;
+    font-size: 11px;
+  }
+
+  .formLinks img {
+    width: 90px;
+    height: 90px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .formLinks p {
+    font-size: 12px;
+    margin-left: 35px;
+    margin-right: 43px;
+  }
+
+  .qrGroup img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .linkGroup a {
+    padding: 6px 25px;
+  }
+
+  .formBlob {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 360px) {
+  .formCard {
+    max-width: 320px;
+    height: 330px;
+  }
+
+  .formBg {
+    width: 310px;
+    height: 320px;
+    padding: 10px;
+  }
+
+  .formContent h2 {
+    font-size: 20px;
+  }
+
+  .formLinks a {
+    width: 120px;
+    font-size: 9px;
+  }
+
+  .formLinks img {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .formLinks p {
+    font-size: 11px;
+    margin-left: 29px;
+    margin-right: 35px;
+  }
+
+  .qrGroup img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .linkGroup a {
+    padding: 5px 20px;
+    width: 110px;
+  }
+
+  .formBlob {
+    width: 220px;
+    height: 180px;
+  }
+}
 .formCard {
   position: relative;
   width: 100%; 
