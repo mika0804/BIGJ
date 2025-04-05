@@ -50,29 +50,29 @@
           "title": "Dance Crew Registration",
           "officeLink": "https://forms.office.com/r/pcedSfGbfK",
           "officeQR": "assets/img/crew.jpg",
-          "googleLink": "https://forms.gle/8kqAsHFXDAF2EhRU8",
-          "googleQR": "assets/img/form1.jpg"
+          "googleLink": "https://forms.gle/rzvNGMqGWKZxqr549",
+          "googleQR": "assets/img/Forms/DanceCrewRegGQR.jpg"
       },
       {
           "title": "Dance Workshop Registration",
           "officeLink": "https://forms.office.com/r/rjTzhDRTy9",
           "officeQR": "assets/img/crews.jpg",
-          "googleLink": "https://forms.gle/aTaxLFwSFPCv4Da2A",
-          "googleQR": "assets/img/form3.jpg"
+          "googleLink": "https://forms.gle/5hTqrmZdtLC8VcZW6",
+          "googleQR": "assets/img/Forms/DanceWorkshopGQR.jpg"
       },
       {
           "title": "Camp Volunteer Registration",
           "officeLink": "https://forms.office.com/r/iBgeRWDVFS",
           "officeQR": "assets/img/dancers.jpg",
-          "googleLink": "https://forms.gle/vCb8eeteKF8EwieH7",
-          "googleQR": "assets/img/form2.jpg"
+          "googleLink": "https://forms.gle/HA4aPG1BdsQV2Pz56",
+          "googleQR": "assets/img/Forms/CampVolunteerGQR.jpg"
       },
       {
           "title": "Events' Registration",
           "officeLink": "https://forms.office.com/r/dTeVZifBVL",
           "officeQR": "assets/img/events.jpg",
-          "googleLink": "https://forms.gle/y2LwJKqzHmkMVL7Z7",
-          "googleQR": "assets/img/form4.jpg"
+          "googleLink": "https://forms.gle/FMZqmMSG3TUPC34EA",
+          "googleQR": "assets/img/Forms/EventRegGQR.jpg"
       }
   ];
 
@@ -88,7 +88,7 @@
                   <h2>${form.title}</h2>
                   <div class="formLinks">
                       <div class="pGroup">
-                          <p>Office Form</p>
+                          <p> MS Office Form</p>
                           <p>Google Form</p>
                       </div>
                       <div class="qrGroup">
@@ -96,7 +96,7 @@
                           <img src="${form.googleQR}" alt="Google QR Code">
                       </div>
                       <div class="linkGroup">
-                          <a href="${form.officeLink}" target="_blank">Register via Office Form</a>
+                          <a href="${form.officeLink}" target="_blank">Register via MS Office Form</a>
                           <a href="${form.googleLink}" target="_blank">Register via Google Form</a>
                       </div>
                   </div>
