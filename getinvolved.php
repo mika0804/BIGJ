@@ -38,7 +38,7 @@
 
   <hr class="hrstyle">
 
-  <section id="involvement-forms" data-aos="zoom-out" data-aos-once=“true”>>
+  <section id="involvement-forms" data-aos="zoom-out" data-aos-once=“true”>
   <div class="container section-title" data-aos="zoom-out" data-aos-once=“true”>
       <h2 >Involvement Forms</h2>
   </div>
