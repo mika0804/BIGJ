@@ -445,6 +445,10 @@ header-image {
     transform: translateX(-50%);
 }
 
+.timeline li:first-child {
+  margin-left: -33px; 
+}
+
 .timeline li:nth-child(odd):before {
     top: -40px;
 }
